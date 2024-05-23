@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pawn : MonoBehaviour
+public class Pawn : MonoBehaviour
 {
     // Variable for move speed
     public float moveSpeed;

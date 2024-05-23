@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class TankMover : Mover
 {
-    public Pawn pawn;
     // Start is called before the first frame update
-    public abstract void Start()
+    public override void Start()
     {
         
     }
 
     // Update is called once per frame
-    public abstract void Update()
+    void Update()
     {
         
     }
-
-    public abstract void processInputs();
 }
