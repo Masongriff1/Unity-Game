@@ -1,21 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public abstract class Controller : MonoBehaviour
 {
     public Pawn pawn;
     // Start is called before the first frame update
-    public abstract void Start()
+    void Start()
     {
-        
+
     }
 
     // Update is called once per frame
-    public abstract void Update()
+    void Update()
     {
-        
+
     }
 
-    public abstract void processInputs();
+    public abstract void ProcessInputs();
 }

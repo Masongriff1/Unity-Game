@@ -1,19 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TankPawn : Pawn
 {
     // Start is called before the first frame update
-    public override void Start()
+    void Start()
     {
-        base.Start();
+        // base.Start();
     }
 
     // Update is called once per frame
-    public override void Update()
+    void Update()
     {
-        base.Start();
+        // base.Start();
     }
 
     public override void MoveForward()

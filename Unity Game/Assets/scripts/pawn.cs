@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Pawn : MonoBehaviour
+public abstract class Pawn : MonoBehaviour
 {
     // Variable for move speed
     public float moveSpeed;
@@ -10,12 +8,13 @@ public class Pawn : MonoBehaviour
     public float turnSpeed;
 
     // Start is called before the first frame update
-    public virtual void Start()
+    void Start()
     {
+        // mover = GetComponent<Mover>();
     }
 
     // Update is called once per frame
-    public virtual void Update()
+    void Update()
     {
     }
 
