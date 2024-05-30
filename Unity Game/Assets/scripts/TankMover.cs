@@ -11,7 +11,7 @@ public class TankMover : Mover
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Move(Vector3 direction, float speed)
     {
         
     }
