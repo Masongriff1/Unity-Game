@@ -6,6 +6,7 @@ public class PlayerController : Controller
     public KeyCode MoveBackward;
     public KeyCode TurnClockwise;
     public KeyCode TurnCounterClockwise;
+    public KeyCode Shoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,10 @@ public class PlayerController : Controller
         if (Input.GetKey(TurnCounterClockwise))
         {
             pawn.RotateCounterClockwise();
+        }
+        if (Input.GetKey(Shoot))
+        {
+            pawn.Shoot();
         }
     }
 }

@@ -34,6 +34,11 @@ public class TankPawn : Pawn
         Debug.Log("Rotate Counter-Clockwise");
         mover.Rotate(-turnSpeed);
     }
+    public override void Shoot()
+    {
+        Debug.Log("Shot Tank");
+        //mover.ShootTank(bullet, force);
+    }
 
 
 }

@@ -13,5 +13,7 @@ public abstract class Mover : MonoBehaviour
     public abstract void Move(Vector3 direction, float speed);
 
     public abstract void Rotate(float rotationSpeed);
+
+    public abstract void ShootTank(object bullet, float force);
     
 }

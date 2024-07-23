@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TankMover : Mover
@@ -23,5 +26,9 @@ public class TankMover : Mover
     public override void Rotate(float rotationSpeed)
     {
         gameObject.transform.Rotate(0, rotationSpeed + Time.deltaTime, 0);
+    }
+    public override void ShootTank(object bullet, float force)
+    {
+        //gameObject.transform.;
     }
 }

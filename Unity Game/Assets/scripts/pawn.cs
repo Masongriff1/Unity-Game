@@ -25,4 +25,5 @@ public abstract class Pawn : MonoBehaviour
     public abstract void RotateClockwise();
     public abstract void RotateCounterClockwise();
 
+    public abstract void Shoot();
 }
