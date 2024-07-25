@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TankPawn : Pawn
@@ -37,7 +38,8 @@ public class TankPawn : Pawn
     public override void Shoot()
     {
         Debug.Log("Shot Tank");
-        //mover.ShootTank(bullet, force);
+        mover.ShootTank(bullet: GetComponent("UATank"), force: float.NaN);
+        //spawnBullet.Summon(ammo: GetComponent("UATank"));
     }
 
 
