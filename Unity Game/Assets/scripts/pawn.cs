@@ -18,6 +18,7 @@ public abstract class Pawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
     }
 
     public abstract void MoveForward();

@@ -1265,9 +1265,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4251392138523568702, guid: a52ffde8ce8da7540a2f4f8bc13de461, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4514467868493421336, guid: a52ffde8ce8da7540a2f4f8bc13de461, type: 3}
       propertyPath: m_Name
       value: UATank
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636931864651427591, guid: a52ffde8ce8da7540a2f4f8bc13de461, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.777
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
