@@ -38,7 +38,9 @@ public class TankPawn : Pawn
     public override void Shoot()
     {
         Debug.Log("Shot Tank");
+        //UATank.Update("FlameStream");
         mover.ShootTank(bullet: GetComponent("UATank"), force: float.NaN);
+        
         //spawnBullet.Summon(ammo: GetComponent("UATank"));
     }
 
